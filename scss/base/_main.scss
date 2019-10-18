@@ -50,19 +50,19 @@ body {
         font-weight: 400;
     }
     &--cyan {
-        background: content-box bottom right no-repeat url('../../images/icon-supervisor.svg');
+        background: content-box bottom right no-repeat url('../images/icon-supervisor.svg');
         border-top: 4px solid $primary-cyan;
     }
     &--red {
-        background: content-box bottom right no-repeat url('../../images/icon-team-builder.svg');
+        background: content-box bottom right no-repeat url('../images/icon-team-builder.svg');
         border-top: 4px solid $primary-red;
     }
     &--orange {
-        background: content-box bottom right no-repeat url('../../images/icon-karma.svg');
+        background: content-box bottom right no-repeat url('../images/icon-karma.svg');
         border-top: 4px solid $primary-orange;
     }
     &--blue {
-        background: content-box bottom right no-repeat url('../../images/icon-calculator.svg');
+        background: content-box bottom right no-repeat url('../images/icon-calculator.svg');
         border-top: 4px solid $primary-blue;
     }
 }
