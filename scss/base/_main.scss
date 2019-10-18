@@ -78,3 +78,24 @@ body {
         text-decoration: none;
     }
 }
+
+@media only screen and (min-width: 1440px) {
+    body {
+        margin: 10px 50px;
+    }
+    .main {
+        display: flex;
+    }
+    .single-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 33.333%;
+    }
+    .double-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 33.333%;
+    }
+}
