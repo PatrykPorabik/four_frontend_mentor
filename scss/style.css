@@ -12,6 +12,7 @@
 }
 
 body {
+  background-color: rgba(0, 0, 0, 0.05);
   font-family: Poppins;
   font-size: 15px;
   display: -webkit-box;
@@ -70,22 +71,22 @@ body {
 }
 
 .card--cyan {
-  background: content-box bottom right no-repeat url("../images/icon-supervisor.svg");
+  background: content-box bottom right no-repeat url("../images/icon-supervisor.svg"), #ffffff;
   border-top: 4px solid #45d3d3;
 }
 
 .card--red {
-  background: content-box bottom right no-repeat url("../images/icon-team-builder.svg");
+  background: content-box bottom right no-repeat url("../images/icon-team-builder.svg"), #ffffff;
   border-top: 4px solid #ea5353;
 }
 
 .card--orange {
-  background: content-box bottom right no-repeat url("../images/icon-karma.svg");
+  background: content-box bottom right no-repeat url("../images/icon-karma.svg"), #ffffff;
   border-top: 4px solid #fcaf4a;
 }
 
 .card--blue {
-  background: content-box bottom right no-repeat url("../images/icon-calculator.svg");
+  background: content-box bottom right no-repeat url("../images/icon-calculator.svg"), #ffffff;
   border-top: 4px solid #549ef2;
 }
 
